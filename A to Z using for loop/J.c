@@ -1,31 +1,21 @@
 #include<stdio.h>
 
-
-main()
+int main()
 {
-
-//* * * * *
-//    *
-//    *
-//    *
-//    *
-//*   *
-// * *
-
-	int i,j,k;
-	for(i=1; i<=7; i++)
+	int i,j;
+	for(i=1;i<=7;i++)
 	{
-		for(j=1; j<=5; j++)
+		for(j=1;j<=7;j++)
 		{
-			if(i==1 || j==3 ||(i==6 && j==1 )||(i==7 && j==2))
+			if(j==4||i==1&&(j!=8)||i==6&&(j==1)||i==7&&(j==1))
 			{
-			   printf("* ");	
+				printf("*");
 			}
 			else
 			{
-				printf("  ");
+				printf(" ");
 			}
 		}
 		printf("\n");
 	}
-}
+} 
