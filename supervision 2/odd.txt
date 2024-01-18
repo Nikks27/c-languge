@@ -1,0 +1,2 @@
+Odd numbers between 50 to 70 : 
+51 53 55 57 59 61 63 65 67 69 
